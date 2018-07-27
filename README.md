@@ -16,19 +16,28 @@ Currently I can train it and it adjusts weights, but after a certain number of l
 ## Errors that occur
 ### Error 1
 Code's Guess : Answer : Error(cost)
+
 1.000 : 1 : 0.000
+
 0.000 : 0 : 0.000
+
 0.945 : 0 : 0.893
+
 0.000 : 1 : 1.000
 
 Then after this it just continues to guess 0, and only 0
 
 ### Error 2
 Code's Guess : Answer : Error(cost)
+
 1.00 : 1 : 0.000
+
 0.00 : 0 : 0.000
+
 0.00 : 0 : 0.000
+
 0.25 : 1 : 0.563
+
 1.00 : 1 : 0.000
 
 The learning rate at this point was 0.5, which makes a little more sense where the 0.25 came from
