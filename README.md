@@ -41,3 +41,7 @@ Code's Guess : Answer : Error(cost)
 1.00 : 1 : 0.000
 
 The learning rate at this point was 0.5, which makes a little more sense where the 0.25 came from
+
+## Requirements:
+Numpy
+Matplotlib
